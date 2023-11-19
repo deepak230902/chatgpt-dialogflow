@@ -34,7 +34,7 @@ const sessionClient = new dialogflow.SessionsClient();
 //     }
 // };
 const textGeneration = async (prompt) => {
-    const openai = new OpenAI({ key: "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" });
+    const openai = new OpenAI({ key: "" });
 
     try {
         const response = await openai.completions.create({
